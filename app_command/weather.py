@@ -6,7 +6,7 @@ import dotenv
 from pathlib import Path
 import os
 
-dotenv.load_dotenv("C:/Users/Adit/code/PERSONAL/piton/bot-discord/.env")
+dotenv.load_dotenv()
 API_KEY = os.getenv("WEATHER_API_KEY")
 
 class Weather(commands.Cog):

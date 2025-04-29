@@ -5,7 +5,7 @@ from pathlib import Path
 import os
 
 
-dotenv.load_dotenv(Path("./.env"))
+dotenv.load_dotenv()
 API_KEY = os.getenv("DISCORD_BOT_TOKEN")
 
 intents = discord.Intents.default()
